@@ -8,13 +8,13 @@ hr {
   height: 5px;
 }
 a{
-  color: #ABBFED;
+  color: #18274E;
 }
 table {
   height: 10px;
   width: 10px;
   color: #d36582;
-  background-color: #263F7D;
+  background-color: #7898E2;
 }
 #div1 {
   /* criei apenas para testar div, não cheguei a usar no portifólio */
@@ -30,19 +30,19 @@ h4 {
   font-family: MesloLGS NF;
 }
 img{
-  border: 5px solid #253c78;
+  border: 5px solid #7898E2;
 }
 li{
-  background-color:#263F7D ;
+  background-color:#7898E2 ;
   width: 100px;
   color: black;
   font-family: cursive;
 }
 ul{
-  background-color:#263F7D ;
+  background-color:#7898E2 ;
 }
 ol{
-  background-color:#263F7D ;
+  background-color:#7898E2 ;
 }
 #teste{
   font-family:Arial, Helvetica, sans-serif;
