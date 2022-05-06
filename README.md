@@ -5,4 +5,5 @@
 ### Atualizações Portifólio web Trybe
 
 > 04/05/2022, Primeira vez utilizando o GitHub Pages.
+>
 > 06/05/2022, Estilizando a página pela primeira vez utilizando o CSS.
