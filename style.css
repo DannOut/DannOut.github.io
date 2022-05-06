@@ -5,10 +5,11 @@ body {
 hr {
   background-color: #253c78;
   color: #253c78;
-  height: 5px;
+  padding: 2px;
 }
 a {
   color: #18274e;
+  font-size: large;
 }
 table {
   height: 10px;
@@ -16,43 +17,56 @@ table {
   color: #d36582;
   background-color: #7898e2;
 }
-#div1 {
-  /* criei apenas para testar div, não cheguei a usar no portifólio */
-  position: absolute;
-  width: 50px;
-  border: 1px solid black;
-  background-color: #d36582;
-  padding: 100px;
-  text-align: center;
-}
+
 h4 {
   text-decoration: underline;
   font-family: MesloLGS NF;
 }
-img {
-  border: 5px solid #7898e2;
+.topimage {
+  border: 5px solid #2fc18c;
+  border-radius: 120px;
+  border-top: 50px;
+  border-width: 10px;
+  background-color: mediumaquamarine;
 }
-li {
-  background-color: #7898e2;
-  width: 100px;
-  color: black;
-  font-family: cursive;
-}
-ul {
-  background-color: #7898e2;
-}
-ol {
-  background-color: #7898e2;
-}
-#teste {
-  font-family: Arial, Helvetica, sans-serif;
-}
-#whoami {
-  color: #18274e;
-  font-size: large;
-  font-weight: bold;
-}
-.picture{
-  border-radius: 100%;
 
+.backimage {
+  border: 5px solid black;
+  border-radius: 100px;
+  border-top: 50px;
 }
+.List {
+  background: linear-gradient(#2b5bca, #7898e2);
+
+  width: 230px;
+  color: aliceblue;
+  font-family: cursive;
+  padding: 15px 50px;
+  border-radius: 25px;
+  font-size: large;
+}
+.List2 {
+  background: linear-gradient(#7898e2, #2b5bca);
+  width: 100px;
+  color: aliceblue;
+  font-family: cursive;
+  padding: 15px 50px;
+  border-radius: 25px;
+  font-size: large;
+}
+
+#indice {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.picture {
+  border-radius: 100%;
+}
+.divCenter{
+  width: 100em;
+}
+#heroName{
+  font-size: 3em;
+  text-align: center;
+}
+
