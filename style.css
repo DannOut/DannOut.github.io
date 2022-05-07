@@ -47,7 +47,7 @@ h4 {
 }
 .List2 {
   background: linear-gradient(#7898e2, #2b5bca);
-  width: 100px;
+  width: 180px;
   color: aliceblue;
   font-family: cursive;
   padding: 15px 50px;
@@ -62,11 +62,13 @@ h4 {
 .picture {
   border-radius: 100%;
 }
-.divCenter{
+.divCenter {
   width: 100em;
 }
-#heroName{
+#heroName {
   font-size: 3em;
   text-align: center;
 }
-
+#contact {
+  display: block;
+}
