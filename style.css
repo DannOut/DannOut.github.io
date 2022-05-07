@@ -36,7 +36,7 @@ h4 {
   border-top: 50px;
 }
 .List {
-  background: linear-gradient(#2b5bca, #7898e2);
+  background: linear-gradient(#7898e2, #2b5bca);
 
   width: 230px;
   color: aliceblue;
@@ -65,10 +65,16 @@ h4 {
 .divCenter {
   width: 100em;
 }
-#heroName {
+#heroName { /* ID */
   font-size: 3em;
   text-align: center;
 }
-#contact {
-  display: block;
+.contact { /* class */
+  text-align:center;
+}
+.jogab{
+  padding: 68px 20px 0px 20px;
+  background-color: #f2cb32;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 45px;
 }
