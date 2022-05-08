@@ -32,12 +32,13 @@ h4 {
 
 .backimage {
   border: 5px solid black;
-  border-radius: 100px;
+  border-radius: 200px;
   border-top: 50px;
+  position:static;
+
 }
 .List {
   background: linear-gradient(#7898e2, #2b5bca);
-
   width: 230px;
   color: aliceblue;
   font-family: cursive;
@@ -45,6 +46,19 @@ h4 {
   border-radius: 25px;
   font-size: large;
 }
+.listref{ font-style: italic;
+}
+/* .divindice{
+  width: 50px;
+  height: 50px;
+  color:red ;
+}
+.divindicelist{
+width: 100px;
+height: 100px;
+color: red;
+}
+ */
 .List2 {
   background: linear-gradient(#7898e2, #2b5bca);
   width: 180px;
@@ -59,16 +73,6 @@ h4 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
 }
-.picture {
-  border-radius: 100%;
-}
-.divCenter {
-  width: 100em;
-}
-#heroName { /* ID */
-  font-size: 3em;
-  text-align: center;
-}
 .contact { /* class */
   text-align:center;
 }
@@ -77,4 +81,10 @@ h4 {
   background-color: #f2cb32;
   border-top-left-radius: 70px;
   border-bottom-right-radius: 45px;
+}
+#heroName { /* ID */
+ 
+  font-size: 3em;
+  text-align: center;
+  position: static;
 }
