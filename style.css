@@ -119,11 +119,16 @@ div ul li:nth-child(even):hover {
 
 .backItens {
   margin-top: 5%;
+  border: 2px solid black;
 }
 .backthings {
   width: 35%;
   display: inline-block;
   vertical-align: middle;
+  border: 2px solid yellow;
+}
+div div.backthings:nth-child(odd){
+  width:15%;
 }
 div.backthings p:nth-of-type(1) {
   font-weight: bold;
