@@ -1,28 +1,141 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(https://img.freepik.com/free-photo/old-cement-wall-texture_1149-1280.jpg?t=st=1652144353~exp=1652144953~hmac=19170ac00ece831f5231df2cf761b9173816cdaf0ad62fccaf6c0c66ab130154&w=900);
+  background-size: cover;
+}
+.backGroundTOP {
+  background-image: url(https://media.freestocktextures.com/cache/fa/db/fadb8f1e37ebc284cb5de563beb7625f.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+/* --1-- trabalha toda a parte de links */
+.allLinks {
+}
+.indLinks {
+  border: 2px solid grey;
+  border-radius: 8px;
+  text-align: center;
+  width: 22%;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  background-image: url(https://img.freepik.com/free-photo/old-cement-wall-texture_1149-1280.jpg?t=st=1652144353~exp=1652144953~hmac=19170ac00ece831f5231df2cf761b9173816cdaf0ad62fccaf6c0c66ab130154&w=900);
+}
+div.allLinks ul div.indLinks li a {
+  color: black;
+}
+div.allLinks ul div.indLinks li a:hover {
+  font-size: large;
+  color: white;
+}
+.topHeader {
+  text-align: center;
+}
+/* --1-- toda a parte de links vem até aqui */
+/* --2-- trabalha toda a parte to título */
+.titleName {
+  text-align: center;
+  text-shadow: 3px 2px grey;
+  color: whitesmoke;
+  font-size: 30px;
+  transition: color 1s ease;
+}
 
-.jogab{
+.titleName:hover {
+  text-align: center;
+  text-shadow: 3px 2px grey;
+  color: black;
+  background-color: aliceblue;
+  background-image: url(https://media.freestocktextures.com/cache/fa/db/fadb8f1e37ebc284cb5de563beb7625f.jpg);
+  background-size: 0%;
+}
+
+/* --2-- toda a parte do título vem até aqui */
+section p a {
+  color: black;
+}
+section p a:hover {
+  transition: color 1s ease;
+  color: white;
+}
+
+.habildiv {
+  font-size: large;
+  border: 5%;
+}
+
+div ol li:nth-child(odd) {
+  color: black;
+  font-style: italic;
+  transition: color 1s ease;
+}
+div ol li:nth-child(odd):hover {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+div ol li:nth-child(even) {
+  color: white;
+  transition: color 1s ease;
+}
+div ol li:nth-child(even):hover {
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+.learndiv {
+}
+div ul li:nth-child(odd) {
+  color: black;
+  font-style: italic;
+  transition: color 1s ease;
+}
+div ul li:nth-child(odd):hover {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+div ul li:nth-child(even) {
+  color: white;
+  transition: color 1s ease;
+}
+div ul li:nth-child(even):hover {
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
+/* jogabilidade */
+.jogabdiv {
+  margin-top: 5%;
+}
+.jogab {
   padding: 68px 20px 0px 20px;
   background-color: #f2cb32;
   border-top-left-radius: 70px;
   border-bottom-right-radius: 45px;
 }
-.divdadbackimage{
-  /* border: 4px solid black;  */
-  width: 45%;
-  
+/* Back Image and Text */
+
+.backItens {
+  margin-top: 5%;
 }
-.divbackimage{
-  border: 2px solid red; 
-  width: 30%;
+.backthings {
+  width: 35%;
   display: inline-block;
-  vertical-align: text-top;
   vertical-align: middle;
-  padding-right: 10px;
-  
-  
-  }
-.myphoto{
+}
+div.backthings p:nth-of-type(1) {
+  font-weight: bold;
+  width: 160%;
+  font-size: large;
+}
+div.backthings p:nth-of-type(2) {
+  font-style: italic;
+  font-weight: bold;
+}
+#Daniel {
   border-radius: 50%;
-  border: 4px solid black;
-  width:100%;
-  height:100%;
+  background-color: black;
+  padding: 5px;
 }
