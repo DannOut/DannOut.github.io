@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  right: 0em;
+  left: 0em;
+  border: 2px solid blue;
+  text-align: center;
+  
+}
+
+.dan_photo {
+  margin-top: 5em;
+  width: 20em;
+  display: inline-block;
+}
+
+#minha_foto {
+  border-top: 0%;
+  border-radius: 50%;
+}
+
+table {
+  vertical-align: middle;
+  float: right;
+  margin-top: 8em;
+}
+
+table , th , td , tr {
+  border: 1px solid black;
+}
+
+th , td {
+  padding: 10px;
+  text-align: left;
+}
+
+#licoes_aprendidas li:nth-child( odd ) {
+  color: blue;
+  font-size: large;
+}
+
+#licoes_a_aprender li:nth-child( even ) {
+  color: red;
+  font-style: italic;
+}
+
+.firstarticle {
+  letter-spacing: 4px;
+}
+
+.lado-esquerdo {
+  width: 48%;
+  display: inline-block;
+}
+
+.lado-direito {
+  border: 4px solid black;
+  width: 18%;
+  float: right;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#rodape {
+  width: 30%;
+  margin-top: 4em;
+}
+
+.lado-esquerdo p:nth-child( 2 ) {
+  line-height: 22px;
+}

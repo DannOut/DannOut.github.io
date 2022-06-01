@@ -1,0 +1,43 @@
+.completed {
+  text-decoration: line-through solid#f8f1ff;
+}
+
+#container {
+  background-color:#decdf5;
+  border: 1px solid#f8f1ff;
+  border-radius: 5px;
+  height: 500px;
+}
+
+#header {
+  border: 1px solid#f8f1ff;
+  background-color:#ffdeff;
+}
+
+#nav {
+  border: 1px solid#f8f1ff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid#f8f1ff;
+  background-color:#decdf5;
+}
+
+.button:hover {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid#f8f1ff;
+  background-color:#FFDEFF;
+  font-weight: 500;
+  font-size: large;
+}
+
+#texto-tarefa {
+  border: 1px solid#f8f1ff;
+  background-color: ffdeff;
+}
