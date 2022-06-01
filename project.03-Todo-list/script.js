@@ -29,10 +29,11 @@ taskButton.addEventListener('click', removeInput);
 ordenedList.addEventListener('click', (event) => {
   const greyTarget = event.target;
   for (let i = 0; i < allLi.length; i += 1) {
-    allLi[i].style.backgroundColor = 'white';
-    greyTarget.style.backgroundColor = 'grey';
+    allLi[i].style.backgroundColor = 'rgb(222, 205, 245)';
+    greyTarget.style.backgroundColor = 'rgb(255, 222, 255)';  
     allLi[i].id = '';
     greyTarget.id = 'selected';
+    ordenedList.style.backgroundColor = 'rgb(222, 205, 245)';
   }
 });
 
