@@ -1,26 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 .completed {
-  background-color: #534D56;
+  background-color: #534d56;
   border: 1px solid #f8f1ff;
+  text-decoration: line-through;
 }
 
 header {
- background-color: #f8f1ff;
+  background-color: #f8f1ff;
 }
 
 h1 {
   font-family: 'Lemon', cursive;
-  color: rgb(101, 97, 118) ;
+  color: rgb(101, 97, 118);
 }
 
 p {
   font-family: 'Lemon', cursive;
-  color: #534D56
+  color: #534d56;
+}
+
+#funcionamento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
-  background-color:#decdf5;
+  background-color: #decdf5;
   border: 1px solid#550f9c;
   border-radius: 5px;
   height: 500px;
@@ -28,7 +39,7 @@ p {
 
 #header {
   border: 1px solid#f8f1ff;
-  background-color:#ffdeff;
+  background-color: #ffdeff;
 }
 
 #nav {
@@ -36,7 +47,6 @@ p {
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .button {
@@ -44,14 +54,14 @@ p {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid#f8f1ff;
-  background-color:#decdf5;
+  background-color: #decdf5;
 }
 
 .button:hover {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid#f8f1ff;
-  background-color:#FFDEFF;
+  background-color: #ffdeff;
   font-weight: 500;
   font-size: large;
 }
@@ -59,11 +69,12 @@ p {
 #texto-tarefa {
   border: 1px solid#f8f1ff;
   background-color: #ffdeff;
+  margin-top: 5px;
 }
 
 li {
-  background-color:#decdf5;
+  background-color: #decdf5;
 }
 ol {
-  background-color:#decdf5;
+  background-color: #decdf5;
 }
