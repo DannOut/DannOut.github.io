@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,200;1,300&family=Montserrat:ital,wght@0,100;0,200;1,100&family=Pacifico&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -7,20 +8,30 @@
 .completed {
   background-color: #534d56;
   border: 1px solid #f8f1ff;
+  font-family: 'Exo', sans-serif;
+  color: #534d56;
   text-decoration: line-through;
 }
 
 header {
   background-color: #f8f1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-  font-family: 'Lemon', cursive;
+  font-family: 'Exo', sans-serif;
   color: rgb(101, 97, 118);
 }
 
 p {
-  font-family: 'Lemon', cursive;
+  font-family: 'Exo', sans-serif;
+  color: #534d56;
+}
+
+#ids {
+  font-family: 'Exo', sans-serif;
   color: #534d56;
 }
 
@@ -32,9 +43,9 @@ p {
 
 #container {
   background-color: #decdf5;
-  border: 1px solid#550f9c;
   border-radius: 5px;
   height: 500px;
+  border: 1px solid#f8f1ff;
 }
 
 #header {
@@ -55,6 +66,11 @@ p {
   border-radius: 10px;
   border: 1px solid#f8f1ff;
   background-color: #decdf5;
+  margin: 5px;
+  font-family: 'Exo', sans-serif;
+  color: #534d56;
+  text-align: center;
+  font: 100;
 }
 
 .button:hover {
@@ -62,18 +78,29 @@ p {
   border-radius: 10px;
   border: 1px solid#f8f1ff;
   background-color: #ffdeff;
-  font-weight: 500;
-  font-size: large;
+  font-weight: 300;
+  font-size: 80%;
+  margin: 5px;
+  font-family: 'Exo', sans-serif;
+  color: #534d56;
+  text-align: center;
+  font: 100;
 }
 
 #texto-tarefa {
   border: 1px solid#f8f1ff;
   background-color: #ffdeff;
-  margin-top: 5px;
+  margin: 5px;
+  font-family: 'Exo', sans-serif;
+  color: #534d56;
+  text-align: center;
+  font: 100;
 }
 
 li {
   background-color: #decdf5;
+  font-family: 'Exo', sans-serif;
+  color: #534d56;
 }
 ol {
   background-color: #decdf5;

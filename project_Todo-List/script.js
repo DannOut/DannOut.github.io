@@ -12,7 +12,7 @@ const removeSelected = document.getElementById('remover-selecionado');
 // creating LI as append of ordened list
 function createLi() {
   const licreation = document.createElement('li');
-  /* licreation.classList.add('list'); */
+  licreation.id = 'ids'
   licreation.innerHTML = inputList.value;
   ordenedList.appendChild(licreation);
 }
@@ -42,8 +42,10 @@ ordenedList.addEventListener('dblclick', (event) => {
   const targetMark = event.target;
   if (targetMark.className === '') {
     targetMark.className = 'completed';
+    targetMark.id = 'ids'
   } else {
     targetMark.className = '';
+    targetMark.id = 'ids'
   }
 });
 
