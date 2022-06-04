@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <label for="text-input">Texto: </label>
+      <input type="text" id="text-input" max="60" maxlength="60" />
+      <!--       <button id="button-input">Criar texto</button> -->
+      <form action="/action_page.php">
+        <label for="myFile">Foto: </label>
+        <input type="file" id="meme-insert" name="filename" />
+      </form>
+      <br />
+      <section id="meme-image-container">
+        <div >
+          <p id="meme-text"></p>
+          <img src="imgs/meme1.png" alt="catchorro" id="meme-image" />
+        </div>
+      </section>
+      <section>
+      <button id="fire">Fire</button>
+      <button id="water">Water</button>
+      <button id="earth">Earth</button>
+    </section>
+    <h3>Escolhe um meme: </h3>
+    <section id="button-img">
+    </section>
+    </main>
+  </body>
+</html>
