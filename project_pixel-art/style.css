@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: url('img/1.jpg');
+  background-image: url('../img/pixel-art_background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,6 +51,10 @@ body {
 #generate-id:hover {
   background-color: #008cba;
   color: aliceblue;
+}
+
+#board-size {
+  text-align: center;
 }
 
 #clear-board {
